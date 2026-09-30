@@ -1,0 +1,6 @@
+# Solo se versionan los archivos públicos enumerados aquí.
+*
+!.gitignore
+!.nojekyll
+!index.html
+!privacidad.html

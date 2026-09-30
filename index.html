@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Información sobre la instancia privada de Hermes Agent administrada por Andrés Kemper y su conexión autorizada con los servicios de Google.">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'; base-uri 'none'; form-action 'none'">
+  <title>Hermes Agent — integración privada</title>
+  <style>
+    :root{color-scheme:light;--paper:#f5f3ed;--ink:#1d2c26;--muted:#526059;--accent:#235d50;--line:#cbd2c8;--white:#fff;--review:#fff3ce}
+    *{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font-family:"Segoe UI",Arial,sans-serif;font-size:17px;line-height:1.65}a{color:var(--accent);text-underline-offset:4px}a:hover{color:var(--ink)}a:focus-visible{outline:3px solid var(--accent);outline-offset:5px}p{margin:0 0 1.1rem}h1,h2{font-family:Georgia,"Times New Roman",serif;font-weight:400;line-height:1.15;text-wrap:balance}h1{font-size:clamp(2.75rem,7vw,5.5rem);letter-spacing:-.045em;margin:.5rem 0 1.3rem}h2{font-size:2rem;margin:0 0 1rem}.wrap{max-width:1080px;margin:0 auto;padding:0 32px}.review{background:var(--review);border-bottom:1px solid #dfd1a8;padding:12px 24px;font-size:14px;text-align:center}.header{display:flex;align-items:center;justify-content:space-between;gap:24px;border-bottom:1px solid var(--line);padding:24px 0}.brand{font-weight:650;text-decoration:none;letter-spacing:-.025em;font-size:20px}.nav{display:flex;gap:24px;flex-wrap:wrap}.nav a{display:inline-flex;align-items:center;min-height:44px;font-size:15px}.eyebrow{font-size:12px;letter-spacing:.14em;text-transform:uppercase;font-weight:700;color:var(--muted)}.hero{padding:76px 0 58px;max-width:850px}.lead{font-size:clamp(1.2rem,2.5vw,1.65rem);line-height:1.45;max-width:770px}.hero .detail{max-width:720px;color:var(--muted)}.action{display:inline-flex;min-height:48px;align-items:center;margin-top:12px;padding:10px 19px;border:1px solid var(--accent);text-decoration:none;font-weight:600}.section{display:grid;grid-template-columns:240px minmax(0,1fr);gap:48px;padding:42px 0;border-top:1px solid var(--line)}.section h2{font-size:1.8rem}.service{display:grid;grid-template-columns:105px minmax(0,1fr);gap:22px;padding:19px 0;border-top:1px solid var(--line)}.service:first-child{padding-top:0;border:0}.service p{margin:0;color:var(--muted)}.service strong{font-size:16px}.note{font-size:15px;color:var(--muted);margin-top:22px}.contact{overflow-wrap:anywhere}.footer{padding:30px 0 40px;border-top:1px solid var(--line);color:var(--muted);font-size:13px}.footer p{max-width:760px;margin-bottom:10px}.skip{position:absolute;left:16px;top:-100px;padding:10px;background:var(--white);z-index:2}.skip:focus{top:10px}@media(max-width:700px){.wrap{padding:0 22px}.header{align-items:flex-start;gap:12px;flex-direction:column;padding:20px 0}.nav{gap:20px}.hero{padding:45px 0 38px}.section{grid-template-columns:1fr;gap:14px;padding:32px 0}.service{grid-template-columns:85px minmax(0,1fr);gap:15px}.review{text-align:left;padding:12px 22px}}@media print{body{background:white;font-size:12pt}.review,.skip{display:none}.wrap{max-width:none}.hero{padding:25px 0}.section{break-inside:avoid}}
+  </style>
+</head>
+<body>
+  <a class="skip" href="#contenido">Saltar al contenido</a>
+
+  <div class="wrap">
+    <header class="header">
+      <a class="brand" href="index.html" aria-current="page">Hermes Agent</a>
+      <nav class="nav" aria-label="Navegación principal">
+        <a href="privacidad.html">Política de privacidad</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+    </header>
+    <main id="contenido">
+      <section class="hero" aria-labelledby="titulo">
+        <div class="eyebrow">Instancia privada · Servicios de Google</div>
+        <h1 id="titulo">Hermes Agent</h1>
+        <p class="lead">Un asistente personal para consultar correo, documentos y agenda.</p>
+        <p class="detail">Esta instancia de Hermes Agent es administrada por Andrés Kemper. Su conexión con Google permite realizar búsquedas, consultar información y preparar resúmenes a pedido del titular de las cuentas autorizadas.</p>
+        <a class="action" href="privacidad.html">Cómo se tratan los datos</a>
+      </section>
+      <section class="section" aria-labelledby="acceso">
+        <h2 id="acceso">Qué acceso utiliza</h2>
+        <div>
+          <div class="service"><strong>Gmail</strong><p>Consultar mensajes y la información necesaria para responder a una solicitud del titular.</p></div>
+          <div class="service"><strong>Drive</strong><p>Buscar archivos y consultar los documentos a los que la cuenta autorizada tenga acceso.</p></div>
+          <div class="service"><strong>Calendar</strong><p>Consultar calendarios y eventos para revisar la agenda y preparar el trabajo.</p></div>
+          <p class="note"><strong>Configuración inicial: solo lectura.</strong> Estos permisos no permiten enviar correos ni modificar archivos o eventos de Google. Cualquier ampliación requiere una autorización adicional.</p>
+        </div>
+      </section>
+      <section class="section" aria-labelledby="uso">
+        <h2 id="uso">Uso privado, control del titular</h2>
+        <div>
+          <p>No se ofrece registro público ni acceso a cuentas ajenas. La autorización se realiza en Google; estas páginas no solicitan contraseñas ni reciben contenido del correo, de los documentos o de la agenda.</p>
+          <p>El titular puede retirar el acceso desde las <a href="https://myaccount.google.com/permissions">conexiones de su cuenta de Google</a>. Las credenciales se guardan cifradas en el equipo del operador, separadas por cuenta.</p>
+          <p>Si se utiliza un proveedor de inteligencia artificial remoto, el contenido necesario para la tarea puede salir del equipo. La <a href="privacidad.html#procesamiento">política de privacidad</a> explica este tratamiento, sus límites y las condiciones que deben revisarse antes de usarlo.</p>
+        </div>
+      </section>
+      <section class="section" id="contacto" aria-labelledby="responsable">
+        <h2 id="responsable">Responsable y contacto</h2>
+        <div class="contact">
+          <p><strong>Andrés Kemper</strong><br>Administrador de esta instancia privada.</p>
+          <p>Consultas sobre la conexión, privacidad o eliminación de datos:<br><a href="mailto:andreskemper009@gmail.com">andreskemper009@gmail.com</a></p>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <p>Este sitio describe una instancia privada. No es el sitio oficial de Nous Research ni de Google, y no implica que Google haya verificado o aprobado la aplicación.</p>
+      <a href="privacidad.html">Política de privacidad</a>
+    </footer>
+  </div>
+</body>
+</html>
